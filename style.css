@@ -1,0 +1,139 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background: linear-gradient(165deg, rgb(11, 0, 31),rgb(36, 101, 175),rgb(16, 1, 43));
+}
+
+body{
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color:rgb(221, 219, 219);   
+    border-radius: 45px;
+    border:none;
+    box-shadow: 0 15px 40px rgb(239, 181, 253);
+    animation: aparecer 1s ease-in-out;
+}
+
+
+h1{
+    font-size: 65px;
+    text-align: center;
+    color: rgb(213, 83, 1);
+    text-shadow: 6px 5px 10px rgb(192, 168, 101);
+    transition: 0.3s ease;
+    margin: 0;
+}
+
+h1:hover{
+    transform:scale(1.050);
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(94, 9, 151);
+    border-left: 6px solid #9a80be;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+h2:hover{
+    border-left: 6px solid #5d3e8a;
+}
+
+h3{
+    font-size: 25px;
+    color:rgb(29, 75, 161);
+}
+
+p,li{
+    font-size: 21px;
+    line-height: 1.5;
+    text-align: justify;
+    color: rgb(54, 53, 53);
+    letter-spacing: 1px;
+}
+
+img{
+    display:block;
+    margin:20px auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(51, 51, 51);
+    transition: 0.4s ease;
+    animation: imagen 1s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.03) rotate(1deg);
+}
+
+iframe{
+    display:block;
+    margin:20px auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgb(51, 51, 51);
+    transition: 0.4s ease;
+}
+
+iframe:hover{
+    transform:scale(1.03) rotate(1deg)
+}
+
+a{
+    color:rgb(184, 112, 68);
+    text-decoration:none;
+    font-weight: bold;
+    transition: 0.3s ease   ;
+}
+
+a:hover{
+    color: rgb(219, 164, 44);
+    text-decoration: underline;
+}
+
+ul,ol{
+    margin-left: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+footer h2{
+    border-left:none;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer img{
+    box-shadow: none;
+    display:inline;
+    vertical-align:middle;
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    to{
+        opacity: 1;
+        transition: translateY(0px);
+    }
+}
+
+@keyframes imagen{
+    from{
+        opacity: 0;
+        transform: translateX(90px);
+    }
+    to{
+        opacity: 1;
+        transition: translateX(0px);
+    }
+}
+
