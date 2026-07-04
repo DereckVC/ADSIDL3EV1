@@ -1,8 +1,8 @@
 html{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background: #4d0202;
-    background: linear-gradient(90deg,rgba(77, 2, 2, 1) 12%, rgba(189, 70, 70, 1) 28%, rgba(150, 46, 46, 1) 78%, rgba(77, 2, 2, 1) 100%);
+    background: #250959;
+    background: linear-gradient(90deg, rgba(37, 9, 89, 1) 0%, rgba(24, 90, 157, 1) 52%, rgba(37, 9, 89, 1) 100%);
 }
 
 body{
@@ -12,7 +12,7 @@ body{
     background-color:rgb(224, 224, 224);   
     border-radius: 45px;
     border:none;
-    box-shadow: 0 15px 40px rgb(239, 181, 253);
+    box-shadow: 0 15px 80px rgb(215, 187, 252);
     animation: aparecer 1s ease-in-out;
 }
 
