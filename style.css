@@ -1,14 +1,15 @@
 html{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background: linear-gradient(90deg,rgba(77, 2, 2, 1) 0%, rgba(184, 57, 57, 1) 50%, rgba(77, 2, 2, 1) 100%);
+    background: #4d0202;
+    background: linear-gradient(90deg,rgba(77, 2, 2, 1) 12%, rgba(189, 70, 70, 1) 28%, rgba(150, 46, 46, 1) 78%, rgba(77, 2, 2, 1) 100%);
 }
 
 body{
     max-width: 1000px;
     margin: 30px auto;
     padding: 30px;
-    background-color:rgb(221, 219, 219);   
+    background-color:rgb(224, 224, 224);   
     border-radius: 45px;
     border:none;
     box-shadow: 0 15px 40px rgb(239, 181, 253);
