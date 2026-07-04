@@ -1,7 +1,7 @@
 html{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    background: linear-gradient(165deg, rgb(11, 0, 31),rgb(36, 101, 175),rgb(16, 1, 43));
+    background: linear-gradient(90deg,rgba(49, 2, 77, 1) 0%, rgba(158, 57, 184, 1) 50%, rgba(49, 2, 77, 1) 100%);
 }
 
 body{
